@@ -1,0 +1,67 @@
+.Module1_1{
+
+    background-color: aliceblue;
+    /* height: 100vw; */
+    max-height: 100vw;
+    min-height: 5vh;
+    width: 56vh;
+    width:60vw;
+    height: 40vh;
+  
+    
+    border-radius: 2vw;
+    /* font-size: 2vw; */
+    display: flex;
+    justify-content: center;
+    font-weight: 0.5vw;
+    display: grid;
+ 
+    grid-template-rows: 1fr 2fr 1fr;
+
+}
+
+
+.h1 {
+    display: flex;
+    font-family: "Lucida Handwriting";
+    font-size: 2vw;
+    position: relative;    
+    justify-content: center;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    text-decoration: underline;
+}
+
+.p1{
+
+    display: flex;
+    font-family: "Lucida Handwriting";
+    font-size: 2vw;
+    position: relative;    
+    justify-content: center;
+    margin: 0vw 1vw 1vw 1vw;
+    /* margin-bottom: 1vw; */
+}
+
+.p11{
+
+    display: flex;
+    font-family: "Lucida Handwriting";
+    font-size: 2vw;
+    position: relative;
+    color: black;    
+    justify-content: right;
+    margin: 0vw 1vw 1vw 1vw;
+    /* margin-bottom: 1vw; */
+}
+
+.p11 a{
+    display: flex;
+    font-family: "Lucida Handwriting";
+    font-size: 2vw;
+    position: relative;
+    color: black;    
+    justify-content: right;
+    margin: 0vw 1vw 1vw 1vw;
+
+}

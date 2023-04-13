@@ -1,0 +1,85 @@
+.Module3_1{
+
+    
+    /* image-rendering: optimizeQuality; */
+    /* image-orientation: from-image; */
+    opacity: 1;
+    background-color: black;
+    /* height: 30vw; */
+    max-height: 100vw;
+    min-height: 10vh;
+
+    width: 30vh;
+    width: 30vw;
+    height:40vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    border-width: 0.5vw;
+    border-radius: 4vw;
+    border-color: grey;
+    border-style: double;
+
+    font-size: 2vw;
+    font-weight: 0.5vw;
+    display: grid;
+    /* grid-template-rows: 4fr  1fr; */
+}
+
+#Img3{
+
+    padding-top: 0.5vw;
+    display: block;
+    /* margin-left: auto;
+    margin-right: auto; */
+    height: 15vw;
+    /* width: auto; */
+    width: 18vw;
+
+}
+
+h3 {
+    display: flex;
+    font-family: "Lucida Handwriting";
+    font-size: 2vw;
+    position: relative;    
+    justify-content: center;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    text-decoration: underline;
+    color: aliceblue;
+}
+
+p3{
+
+    display: flex;
+    font-family: "Lucida Handwriting";
+    font-size: 2vw;
+    position: relative;    
+    justify-content: center;
+    margin: 0vw 1vw 1vw 1vw;
+    /* margin-bottom: 1vw; */
+}
+
+p31{
+
+    display: flex;
+    font-family: "Lucida Handwriting";
+    font-size: 2vw;
+    position: relative;
+    color: aliceblue;    
+    justify-content: right;
+    margin: 0vw 1vw 1vw 1vw;
+    /* margin-bottom: 1vw; */
+}
+
+p31 a{
+    display: flex;
+    font-family: "Lucida Handwriting";
+    font-size: 2vw;
+    position: relative;
+    color: black;    
+    justify-content: right;
+    margin: 0vw 1vw 1vw 1vw;
+
+}
