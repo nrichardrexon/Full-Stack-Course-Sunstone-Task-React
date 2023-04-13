@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+
+    <link rel="stylesheet" href="../src/CSS/CSS.css">
+    <script src="../src/JavaScript/Javascript.js"></script>
+</head>
+<body>
+
+    <header>
+
+        <div class="HeaderLeft">
+
+            <time class="time" name="time">
+                Time: <span id="time"></span>
+            </time>
+            
+                
+            <div class="date" name="date">
+                Date: <span id="date"></span>
+            </div>
+
+
+        </div>
+
+        <div class="HeaderCenter">
+
+            Blog Spotter
+
+        </div>
+
+        <div class="HeaderRight">
+          
+            <form action="Post" class="LogIn">
+
+                <p> <label class="Label1">Username :     <input type="password" class="Password" name="Username" /></label> </p>
+
+                <p> <label class="Label2">Password :     <input type="password" class="Password" name="Password" /></label> </p>
+                
+            </form>
+
+        </div>
+
+    </header>
+
+    
+    <nav>
+
+
+        <ul ><li><a href="#"> Home</a></li></ul>
+        
+        <div class="DropdownBlog">
+            <button class="dropblogButton"><li><a href="#"> Blog</a></li>
+                
+            </button>
+
+        <!-- </div><ul><li><a href="#"> Blog</a></li> -->
+            
+            
+            <div class="DropdownBlogContent">
+                <li><a href="#"> Rock</a></li>
+                <li><a href="#"> Jazz</a></li>
+                <li><a href="#"> Blues</a></li>
+                <li><a href="#"> Music</a></li>
+            </div>
+        
+        </div>
+        
+        <ul><li><a href="#"> Photo</a></li></ul>
+        <ul><li><a href="#"> About Me</a></li></ul>
+        <ul><li><a href="#"> Subscribe</a></li></ul>
+        
+    </nav>
+
+    <div id="ContentSpaceJS">      
+
+        <!-- <script type="module" src="../src/Components/ContentSpaceJSHomepage/ContentSpaceJSHomepage.tsx"></script> -->
+    
+        
+        <script type="module" src="index.mjs"></script>
+
+    </div>
+
+
+    <footer>
+
+        <div class="CopyRight">
+
+            CopyRight@2023 <br>
+            Hosted by N.Richard 5134a4734
+
+        </div>
+    </footer>
+
+
+
+    
+</body>
+</html>
